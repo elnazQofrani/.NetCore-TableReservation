@@ -1,15 +1,14 @@
-﻿using BookTableReservation.Enums;
+﻿using Domain.Enums;
 using System.ComponentModel.DataAnnotations;
 
 namespace BookTableReservation.Models
 {
     public class BookingDto
     {
-        [Required]
 
         public int CustomerId { get; set; }
 
-        [Required]
+        [Required(ErrorMessage ="StudentId Needed.")]
         public int SeatId { get; set; }
 
         [Required]

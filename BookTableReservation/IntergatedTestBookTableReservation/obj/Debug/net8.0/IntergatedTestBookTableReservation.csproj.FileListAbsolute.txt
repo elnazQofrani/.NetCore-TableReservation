@@ -539,3 +539,7 @@ D:\Elnaz\Projects\BookTableReservation\IntergatedTestBookTableReservation\obj\De
 D:\Elnaz\Projects\BookTableReservation\IntergatedTestBookTableReservation\obj\Debug\net8.0\IntergatedTestBookTableReservation.pdb
 D:\Elnaz\Projects\BookTableReservation\IntergatedTestBookTableReservation\obj\Debug\net8.0\IntergatedTestBookTableReservation.genruntimeconfig.cache
 D:\Elnaz\Projects\BookTableReservation\IntergatedTestBookTableReservation\obj\Debug\net8.0\ref\IntergatedTestBookTableReservation.dll
+D:\Elnaz\Projects\BookTableReservation\IntergatedTestBookTableReservation\bin\Debug\net8.0\BusinessLayer.dll
+D:\Elnaz\Projects\BookTableReservation\IntergatedTestBookTableReservation\bin\Debug\net8.0\Domain.dll
+D:\Elnaz\Projects\BookTableReservation\IntergatedTestBookTableReservation\bin\Debug\net8.0\BusinessLayer.pdb
+D:\Elnaz\Projects\BookTableReservation\IntergatedTestBookTableReservation\bin\Debug\net8.0\Domain.pdb

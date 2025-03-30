@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using BookTableReservation.Data;
-using BookTableReservation.Repositories;
+using Domain.Data;
+using BusinessLayer.Repositories;
 using BookTableReservation.Mappings;
-using BookTableReservation.Services;
+using BusinessLayer.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,11 +13,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DbProjectContext>(Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("ProjectConnectionString")));
-builder.Services.AddScoped<ISeatRepository, SeatRespositoey>();
-builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
-builder.Services.AddScoped<IBookingRepository, BookingRepository>();
+
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<ISeatService , SeatService>();
+builder.Services.AddScoped<IBookingService , BookingService>();
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 var app = builder.Build();
 

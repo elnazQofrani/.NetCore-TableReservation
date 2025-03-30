@@ -1,13 +1,12 @@
 
 using AutoMapper;
-
 using Moq;
 using NUnit.Framework;
-using BookTableReservation.Repositories;
+using BusinessLayer.Repositories;
 using BookTableReservation.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using BookTableReservation.Models;
-using BookTableReservation.Entities;
+using Domain.Entities;
 
 namespace TestingBookingTableReservation
 {

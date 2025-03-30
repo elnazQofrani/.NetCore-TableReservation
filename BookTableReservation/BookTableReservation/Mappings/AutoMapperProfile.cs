@@ -1,4 +1,4 @@
-﻿using BookTableReservation.Entities;
+﻿using Domain.Entities;
 using BookTableReservation.Models;
 using AutoMapper;
 

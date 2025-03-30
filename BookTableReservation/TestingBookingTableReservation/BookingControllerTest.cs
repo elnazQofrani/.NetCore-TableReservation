@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using BookTableReservation.Controllers;
-using BookTableReservation.Entities;
-using BookTableReservation.Enums;
+using Domain.Entities;
+using Domain.Enums;
 using BookTableReservation.Models;
-using BookTableReservation.Repositories;
-using BookTableReservation.Services;
+using BusinessLayer.Repositories;
+using BusinessLayer.Services;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 

@@ -1,4 +1,4 @@
-﻿using BookTableReservation.Entities;
+﻿using Domain.Entities;
 using System.ComponentModel.DataAnnotations;
 
 namespace BookTableReservation.Models

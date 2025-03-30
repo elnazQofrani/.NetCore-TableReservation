@@ -2366,6 +2366,8 @@
       "BookTableReservation/1.0.0": {
         "dependencies": {
           "AutoMapper": "14.0.0",
+          "BusinessLayer": "1.0.0",
+          "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -2377,6 +2379,34 @@
         },
         "compile": {
           "BookTableReservation.dll": {}
+        }
+      },
+      "BusinessLayer/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "BusinessLayer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "BusinessLayer.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3"
+        },
+        "runtime": {
+          "Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "Domain.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/8.0.0.0": {
@@ -5047,6 +5077,16 @@
       "hashPath": "yamldotnet.16.0.0.nupkg.sha512"
     },
     "BookTableReservation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using BookTableReservation.Controllers;
-using BookTableReservation.Entities;
+using Domain.Entities;
 using BookTableReservation.Models;
-using BookTableReservation.Repositories;
+using BusinessLayer.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 

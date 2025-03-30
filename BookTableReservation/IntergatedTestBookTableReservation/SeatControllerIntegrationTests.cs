@@ -1,8 +1,8 @@
 
 using Microsoft.AspNetCore.Mvc.Testing;
 using NUnit.Framework;
-using BookTableReservation.Entities;
-using BookTableReservation.Repositories;
+using Domain.Entities;
+using BusinessLayer.Repositories;
 using Moq;
 using Newtonsoft.Json;
 using BookTableReservation.Models;

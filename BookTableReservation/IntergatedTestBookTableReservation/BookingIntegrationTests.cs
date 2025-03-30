@@ -8,9 +8,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BookTableReservation.Entities;
-using BookTableReservation.Repositories;
-using BookTableReservation.Services;
+using Domain.Entities;
+using BusinessLayer.Repositories;
+using BusinessLayer.Services;
 
 
 namespace IntergatedTestBookTableReservation

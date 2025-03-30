@@ -188,7 +188,6 @@
       "BookingDto": {
         "required": [
           "bookingDateTime",
-          "customerId",
           "seatId",
           "startTime"
         ],

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Elnaz\\Projects\\BookTableReservation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7F1CC8-1AB6-41F3-A0E0-048EE97B313B}|Domain\\Domain.csproj|d:\\elnaz\\projects\\booktablereservation\\domain\\configuration\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F7F1CC8-1AB6-41F3-A0E0-048EE97B313B}|Domain\\Domain.csproj|solutionrelative:domain\\configuration\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7F1CC8-1AB6-41F3-A0E0-048EE97B313B}|Domain\\Domain.csproj|d:\\elnaz\\projects\\booktablereservation\\domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F7F1CC8-1AB6-41F3-A0E0-048EE97B313B}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7F1CC8-1AB6-41F3-A0E0-048EE97B313B}|Domain\\Domain.csproj|d:\\elnaz\\projects\\booktablereservation\\domain\\configuration\\bookingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F7F1CC8-1AB6-41F3-A0E0-048EE97B313B}|Domain\\Domain.csproj|solutionrelative:domain\\configuration\\bookingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Elnaz\\Projects\\BookTableReservation\\Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Customer.cs",
+              "ToolTip": "D:\\Elnaz\\Projects\\BookTableReservation\\Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "Domain\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:34:54.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerConfiguration.cs",
+              "DocumentMoniker": "D:\\Elnaz\\Projects\\BookTableReservation\\Domain\\Configuration\\CustomerConfiguration.cs",
+              "RelativeDocumentMoniker": "Domain\\Configuration\\CustomerConfiguration.cs",
+              "ToolTip": "D:\\Elnaz\\Projects\\BookTableReservation\\Domain\\Configuration\\CustomerConfiguration.cs",
+              "RelativeToolTip": "Domain\\Configuration\\CustomerConfiguration.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:34:48.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingConfiguration.cs",
+              "DocumentMoniker": "D:\\Elnaz\\Projects\\BookTableReservation\\Domain\\Configuration\\BookingConfiguration.cs",
+              "RelativeDocumentMoniker": "Domain\\Configuration\\BookingConfiguration.cs",
+              "ToolTip": "D:\\Elnaz\\Projects\\BookTableReservation\\Domain\\Configuration\\BookingConfiguration.cs",
+              "RelativeToolTip": "Domain\\Configuration\\BookingConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:34:37.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,10 @@
 ﻿using AutoMapper;
-using BookTableReservation.Repositories;
+using BusinessLayer.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using BookTableReservation.Models;
 using Azure.Core;
+using BusinessLayer.Services;
 
 namespace BookTableReservation.Controllers
 {
@@ -11,11 +12,11 @@ namespace BookTableReservation.Controllers
     [ApiController]
     public class SeatController : ControllerBase
     {
-        private readonly ISeatRepository _seatRepository;
+        private readonly ISeatService _seatService;
         private readonly IMapper mapper;
-        public SeatController(ISeatRepository _seatRepository, IMapper mapper)
+        public SeatController(ISeatService _seatService, IMapper mapper)
         {
-            this._seatRepository = _seatRepository;
+            this._seatService = _seatService;
             this.mapper = mapper;
         }
 
@@ -26,7 +27,7 @@ namespace BookTableReservation.Controllers
             if (!TimeSpan.TryParse(desiredStartTime, out TimeSpan startTime))
                 return BadRequest("Invalid start time format.");
 
-            var AvailableSeats = await _seatRepository.GetAvailableSeats(desiredDateTime, startTime);
+            var AvailableSeats = await _seatService.GetAvailableSeats(desiredDateTime, startTime);
 
             if (AvailableSeats == null || !AvailableSeats.Any()) return NotFound();
             return Ok(mapper.Map<List<SeatsDto>>(AvailableSeats));
